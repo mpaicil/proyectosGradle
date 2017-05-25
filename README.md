@@ -10,8 +10,8 @@ Proyectos Gradle
 Presiona sobre tu nombre de usuario, que se encuentra en la parte superior derecho.             * Ingresa nuevamente tu contraseña y presiona en UNLOCK.
 * En el campo `Encrypted Password`, presionar en el icono `show Encrypted Password` y almacenarla en algun editor.
 * En tu `$HOME`, ingresar a la carpeta `gradle` y generar el archivo gradle.properties.
-* Dentro del archivo ingresar
-..* artifactory_user=`usuario`
-..* artifactory_password=`la contraseña encriptada`
-..* artifactory_contextUrl=https://archive.it.lan.com/artifactory
+* Dentro del archivo ingresar.
+..+ artifactory_user=`usuario`
+..+ artifactory_password=`la contraseña encriptada`
+..+ artifactory_contextUrl=https://archive.it.lan.com/artifactory
 
