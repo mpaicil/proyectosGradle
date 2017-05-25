@@ -4,8 +4,8 @@ Proyectos Gradle
 
 ## Requisitos:
 
-   Para poder realizar la construccion del proyecto, es necesario realizar los siguientes pasos:
-```
+Para poder realizar la construccion del proyecto, es necesario realizar los siguientes pasos:
+
 * Ingresar con tu cuenta de LDAP a [JFROG](https://archive.it.lan.com/)
 * Presiona sobre tu nombre de usuario, que se encuentra en la parte superior derecha
 * Ingresa nuevamente tu contraseña y presiona en UNLOCK
@@ -16,4 +16,3 @@ Proyectos Gradle
    * artifactory_password=`la contraseña encriptada`
    * artifactory_contextUrl=https://archive.it.lan.com/artifactory
 * Terminado lo anterior puedes ir al proyecto clonado y realizar el `build` 
-```
