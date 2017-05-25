@@ -9,7 +9,7 @@ Para poder realizar la construccion del proyecto, es necesario realizar los sigu
 * Ingresar con tu cuenta de LDAP a [JFROG](https://archive.it.lan.com/)
 * Presiona sobre tu nombre de usuario, que se encuentra en la parte superior derecha
 * Ingresa nuevamente tu contraseña y presiona en UNLOCK
-* En el campo `Encrypted Password`, presionar en el icono `show Encrypted Password` y almacenarla en algun editor
+* En el campo `Encrypted Password`, presionar en el icono `show Encrypted Password` y almacenarla en alg&utilde;n editor
 * En tu `$HOME`, ingresar a la carpeta `gradle` y generar el archivo gradle.properties
 * Dentro del archivo ingresar
    * artifactory_user=`usuario`
