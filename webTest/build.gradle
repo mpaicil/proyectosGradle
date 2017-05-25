@@ -1,0 +1,11 @@
+group 'com.latam.web.prueba'
+version '0.0.1-SNAPSHOT'
+
+subprojects {
+
+    apply plugin : "java"
+
+    repositories {
+        mavenLocal()
+    }
+}

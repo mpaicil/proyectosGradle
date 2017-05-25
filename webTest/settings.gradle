@@ -1,0 +1,2 @@
+include ":utils",":web"
+rootProject.name = 'webTest'

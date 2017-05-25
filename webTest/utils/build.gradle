@@ -1,0 +1,24 @@
+//this.name = 'persona'
+group = 'com.latam.dto'
+version = '0.0.1-SNAPSHOT'
+
+apply plugin: 'maven-publish'
+apply plugin:'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    testCompile "junit:junit:4.12"
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
