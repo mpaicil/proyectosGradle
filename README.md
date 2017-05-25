@@ -12,7 +12,7 @@ Proyectos Gradle
 4. En el campo `Encrypted Password`, presionar en el icono `show Encrypted Password` y almacenarla en algun editor
 5. En tu `$HOME`, ingresar a la carpeta `gradle` y generar el archivo gradle.properties
 6. Dentro del archivo ingresar
-···artifactory_user=`usuario`
+··* artifactory_user=`usuario`
 ···artifactory_password=`la contraseña encriptada`
-···artifactory_contextUrl=https://archive.it.lan.com/artifactory
+???artifactory_contextUrl=https://archive.it.lan.com/artifactory
 
