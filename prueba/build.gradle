@@ -1,7 +1,10 @@
-group 'com.latam.pruebas'
+group 'com.latam.miprueba'
 version '0.0.1-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'info.solidsoft.pitest'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
 
@@ -11,7 +14,8 @@ repositories {
 
 dependencies {
     testCompile "junit:junit:4.12"
-    compile "com.latam.pruebas:prueba:0.0.1-SNAPSHOT"
+    //compile "com.latam.pruebas:prueba:0.0.1-SNAPSHOT"
+    //classpath("info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.1.4")
     //testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 /*
@@ -39,3 +43,26 @@ task runJar(dependsOn:jar) << {
   javaexec { main="-jar"; args buildDir.getAbsolutePath()+"/libs/"+project.getName()+"-"+project.getVersion()+".jar" } 
 }
 
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+	//html.destination "${buildDir}/jacocoHtml"
+    }
+}
+
+/*
+codeCoverageReport.dependsOn {
+    subprojects*.test
+}
+*/
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.1.4"
+  }
+}

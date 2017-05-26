@@ -19,6 +19,13 @@ public class CalculadoraTest {
     @Test
     public void retornoValor(){
         Integer valor = calc.getValor();
-        assertEquals("No cohinciden los valores",(Integer) 1, valor);
+        assertEquals("No cohinciden los valores",(Integer) 0, valor);
+    }
+
+    @Test
+    public void asignarValorTest(){
+	    cal.setValor((Integer) 2);
+	    Integer valor= cal.getValor();
+	    assertEquals("No cohinciden los valores",(Integer) 2, valor);
     }
 }

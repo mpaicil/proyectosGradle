@@ -21,4 +21,11 @@ public class CalculadoraTest {
         Integer valor = calc.getValor();
         assertEquals("No cohinciden los valores",(Integer) 0, valor);
     }
+
+    @Test
+    public void asignarValorTest(){
+	    calc.setValor((Integer) 2);
+	    Integer valor= calc.getValor();
+	    assertEquals("No cohinciden los valores",(Integer) 2, valor);
+    }
 }
