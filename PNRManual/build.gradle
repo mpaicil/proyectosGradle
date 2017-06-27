@@ -1,0 +1,20 @@
+group 'com.latam.robot'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+httpPort = 2080
+stopPort = 2088
+stopKey = "stopKey"

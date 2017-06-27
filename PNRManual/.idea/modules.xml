@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PNRManual.iml" filepath="$PROJECT_DIR$/.idea/modules/PNRManual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1363499016/PNRManual_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1363499016/PNRManual_main.iml" group="PNRManual" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1363499016/PNRManual_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1363499016/PNRManual_test.iml" group="PNRManual" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1363499016/repos-PNRManual.iml" filepath="$PROJECT_DIR$/.idea/modules/-1363499016/repos-PNRManual.iml" />
+    </modules>
+  </component>
+</project>
