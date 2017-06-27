@@ -1,0 +1,11 @@
+package com.latam.drools.example;
+
+import com.latam.drools.example.dto.Message;
+
+rule "prueba"
+when
+    $msg: Message()
+then
+    System.out.println($msg.generateMsg());
+end
+

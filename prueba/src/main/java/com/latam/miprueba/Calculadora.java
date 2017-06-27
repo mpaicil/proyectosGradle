@@ -2,22 +2,21 @@ package com.latam.miprueba;
 
 public class Calculadora {
 
+    private int valor;
+
     public Calculadora(){
         this.valor = 0;
     }
 
-    public Integer getValor() {
-        return valor;
+    public int getValor() {
+        return this.valor;
     }
 
-    public void setValor(Integer valor) {
-        this.valor = valor;
+    public void setValor(int nuevovalor) {
+        this.valor = nuevovalor;
     }
-    public void suma(Integer valor){
-        this.valor += valor;
+    public int suma(int nuevovalor){
+        return this.valor += nuevovalor;
     }
-
-    private Integer valor;
-
 
 }

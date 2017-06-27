@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculadoraTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-05-31T16:08:49" hostname="NXRLT" time="0.008">
+  <properties/>
+  <testcase name="verificarRetornoNoNulo" classname="CalculadoraTest" time="0.004"/>
+  <testcase name="verificarError" classname="CalculadoraTest" time="0.001"/>
+  <testcase name="retornoValor" classname="CalculadoraTest" time="0.001"/>
+  <testcase name="asignarValorTest" classname="CalculadoraTest" time="0.0"/>
+  <testcase name="verificarSuma" classname="CalculadoraTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

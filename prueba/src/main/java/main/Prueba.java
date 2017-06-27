@@ -1,4 +1,6 @@
-package com.latam.miprueba;
+package main;
+
+import com.latam.miprueba.Calculadora;
 
 public class Prueba{
 
@@ -6,7 +8,7 @@ public class Prueba{
         System.out.println("Salimo!!!");
         System.out.println("Seguro??!!!");
 	Calculadora calc= new Calculadora();
-	calc.setValor((Integer) 5);
-	System.out.println("Valor: "+calc.getValor().toString());
+	calc.setValor(5);
+	System.out.println("Valor: "+String.valueOf( calc.getValor() ));
     }
 }
