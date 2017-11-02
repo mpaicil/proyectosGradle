@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mutations>
+<mutation detected='true' status='KILLED'><sourceFile>Calculadora.java</sourceFile><mutatedClass>com.latam.miprueba.Calculadora</mutatedClass><mutatedMethod>getValor</mutatedMethod><methodDescription>()Ljava/lang/Integer;</methodDescription><lineNumber>12</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator</mutator><index>5</index><killingTest>com.latam.miprueba.CalculadoraTest.retornoValor(com.latam.miprueba.CalculadoraTest)</killingTest></mutation>
+<mutation detected='true' status='KILLED'><sourceFile>Calculadora.java</sourceFile><mutatedClass>com.latam.miprueba.Calculadora</mutatedClass><mutatedMethod>suma</mutatedMethod><methodDescription>(Ljava/lang/Integer;)V</methodDescription><lineNumber>19</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator><index>11</index><killingTest>com.latam.miprueba.CalculadoraTest.verificarSuma(com.latam.miprueba.CalculadoraTest)</killingTest></mutation>
+</mutations>

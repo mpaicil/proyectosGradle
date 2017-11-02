@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstRest.iml" filepath="$PROJECT_DIR$/.idea/modules/firstRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstRest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstRest_main.iml" group="firstRest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstRest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstRest_test.iml" group="firstRest" />
+    </modules>
+  </component>
+</project>

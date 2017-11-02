@@ -9,6 +9,8 @@ public class Prueba{
         System.out.println("Seguro??!!!");
 	Calculadora calc= new Calculadora();
 	calc.setValor(5);
-	System.out.println("Valor: "+String.valueOf( calc.getValor() ));
+	try {
+        System.out.println("Valor: " + String.valueOf(calc.getValor()));
+    }catch(Exception e){}
     }
 }
