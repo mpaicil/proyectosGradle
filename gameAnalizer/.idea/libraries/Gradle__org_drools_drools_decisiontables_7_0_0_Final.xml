@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.drools:drools-decisiontables:7.0.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.drools/drools-decisiontables/7.0.0.Final/ad9942d25453d2df9a3b08fd4f1adf1cf8d545f1/drools-decisiontables-7.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.drools/drools-decisiontables/7.0.0.Final/c0afe90dc3a7b5cf2c7ffac71ab976a942703682/drools-decisiontables-7.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
