@@ -1,0 +1,16 @@
+import java.util.List;
+import com.slackmag.domain.Sorteo;
+import java.util.Map;
+
+global java.util.Map mapa;
+
+rule "Carga de un Sorteo en WM"
+    when
+        laLista: List( size() == 0)
+    then
+        modify(laLista){
+            add(new Sorteo())
+        };
+        System.out.println("Was added a new Sorteo");
+        mapa.put("cero",laLista);
+end
