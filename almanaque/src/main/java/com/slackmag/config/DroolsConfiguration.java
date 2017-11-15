@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("com.slackmag.service")
 public class DroolsConfiguration {
-    private static final String drlFile = "analisisDeSorteos.drl";
+    private static final String drlFile = " analisisDeSorteos.drl";
 
     @Bean
     public KieContainer kieContainer() {
