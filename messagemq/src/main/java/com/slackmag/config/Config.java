@@ -14,16 +14,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Config {
 
-    public final static String queueName = "spring-boot4";
+    public final static String queueName = "boot7";
 
     @Bean
     Queue queue() {
-        return new Queue(queueName, false,false,true);
+        return new Queue(queueName, true, false, true);
     }
 
     @Bean
     FanoutExchange exchange() {
-        return new FanoutExchange("spring-boot-exchange4");
+        return new FanoutExchange("todos");
     }
 
     @Bean

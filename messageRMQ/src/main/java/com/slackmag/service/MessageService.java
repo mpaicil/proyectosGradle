@@ -1,9 +1,11 @@
 package com.slackmag.service;
 
-import com.slackmag.config.Config;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MessageService {
@@ -14,9 +16,9 @@ public class MessageService {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String sendMessageByGet(@RequestParam(value = "mensaje") String message) {
-        
-        rabbitTemplate.convertAndSend(Config.queueName, message);
-        return "Mensaje Enviado";
+        rabbitTemplate.setExchange("todos");
+        rabbitTemplate.convertAndSend(message);
+        return "Mensaje Enviado: " + message;
     }
 
 /*
